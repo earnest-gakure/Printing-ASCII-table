@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-void printBinary(int num) {
+void printBinary(int num) {         
     if (num == 0) {
         printf("00000000");
         return;
@@ -23,9 +23,9 @@ void printBinary(int num) {
 
 int main() {
     printf("ASCII Table\n");
-    printf("----------------------------------------------\n");
+    printf("------------------------------------------------------------------\n");
     printf("Character Name |    Decimal |    Binary         |  Hexadecimal\n");
-    printf("----------------------------------------------\n");
+    printf("-------------------------------------------------------------------\n");
 
     for (int i = 0; i <= 127; i++) {
         printf("%7c        |     %d         |  ", i, i);
